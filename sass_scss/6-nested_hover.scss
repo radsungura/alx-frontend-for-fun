@@ -1,0 +1,9 @@
+/* use nested declarations to change color on a hover event*/
+
+button {
+    color: #FF0000;
+
+    &:hover {
+        color: #00FF00;
+    }
+}
