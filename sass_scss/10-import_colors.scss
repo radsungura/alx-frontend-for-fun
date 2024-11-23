@@ -1,4 +1,15 @@
-/* Import  colors */
-$red: #FF0000;
-$green: #00FF00;
-$blue: #0000FF;
+/* Import my colors from 10-colos */
+
+@import '10-colors';
+
+.red {
+  color: $red; 
+}
+
+.green {
+  color: $green; 
+}
+
+.blue {
+  color: $blue; 
+}
